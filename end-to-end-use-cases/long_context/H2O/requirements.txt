@@ -2,3 +2,6 @@ transformers
 rouge
 xopen
 needlehaystack
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
