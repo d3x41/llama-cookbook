@@ -9,9 +9,10 @@ tokenizers
 scipy
 pyzmq
 fairscale
-tqdm~=4.62.1
+tqdm~=4.66.3
 importlib-metadata<4.3
-numpy~=1.22
+numpy~=1.22.2
 jiter
 typing-extensions<5,>=4.11
 spacy
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
